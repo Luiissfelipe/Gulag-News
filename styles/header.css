@@ -1,0 +1,26 @@
+.cabecalho {
+    position: fixed;
+    width: 100%;
+    background-color: var(--terceira-cor);
+    padding: 15px 24px;
+    border-bottom: 2px solid var(--segunda-cor);
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}

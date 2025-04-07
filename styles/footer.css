@@ -1,0 +1,12 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 32px;
+    border-top: 2px solid var(--segunda-cor);
+}
+
+.link {
+    color: var(--primeira-cor);
+    text-decoration: none;
+}

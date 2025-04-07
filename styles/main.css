@@ -1,0 +1,67 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 110px 24px 32px;
+}
+
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 360px;
+    background: black url(../images/verdansk.jpg) center center no-repeat scroll;
+    background-size: cover;
+    color: var(--terceira-cor);
+    border-radius: 4px;
+}
+
+.card_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 360px;
+    background: black url(../images/xbox.jpg) center center no-repeat scroll;
+    background-size: cover;
+    color: var(--terceira-cor);
+    border-radius: 4px;
+}
+
+.card_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 360px;
+    background: black url(../images/xbox.jpg) center center no-repeat scroll;
+    background-size: cover;
+    color: var(--terceira-cor);
+    border-radius: 4px;
+}
+
+.card_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 360px;
+    background: black url(../images/xbox.jpg) center center no-repeat scroll;
+    background-size: cover;
+    color: var(--terceira-cor);
+    border-radius: 4px;
+}
+
+.noticia {
+    background-color: var(--quarta-cor);
+    padding: 10px 20px 20px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.data {
+    margin-bottom: 12px;
+}
+
+.manchete {
+    color: var(--segunda-cor);
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 2rem;
+}
