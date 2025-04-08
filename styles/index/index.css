@@ -1,3 +1,5 @@
+@import url("../style.css");
+
 .principal {
     display: flex;
     flex-direction: column;
@@ -10,7 +12,7 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 360px;
-    background: black url(../images/verdansk.jpg) center center no-repeat scroll;
+    background: black url(../../images/verdansk.jpg) center center no-repeat scroll;
     background-size: cover;
     color: var(--terceira-cor);
     border-radius: 4px;
@@ -21,7 +23,7 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 360px;
-    background: black url(../images/xbox.jpg) center center no-repeat scroll;
+    background: black url(../../images/xbox.jpg) center center no-repeat scroll;
     background-size: cover;
     color: var(--terceira-cor);
     border-radius: 4px;
@@ -32,7 +34,7 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 360px;
-    background: black url(../images/xbox.jpg) center center no-repeat scroll;
+    background: black url(../../images/xbox.jpg) center center no-repeat scroll;
     background-size: cover;
     color: var(--terceira-cor);
     border-radius: 4px;
@@ -43,7 +45,7 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 360px;
-    background: black url(../images/xbox.jpg) center center no-repeat scroll;
+    background: black url(../../images/xbox.jpg) center center no-repeat scroll;
     background-size: cover;
     color: var(--terceira-cor);
     border-radius: 4px;

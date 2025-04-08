@@ -1,0 +1,23 @@
+@import url("../style.css");
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 130px 24px 32px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    text-align: justify;
+}
