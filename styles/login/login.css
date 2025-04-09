@@ -1,0 +1,63 @@
+@import url("../style.css");
+
+.principal {
+    padding: 145px 24px 48px;
+}
+
+.principal_login_cabecalho {
+    margin-bottom: 40px;
+}
+
+.principal_login_cabecalho_paragrafo {
+    margin-bottom: 8px;
+}
+
+.principal_login_cabecalho_titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.principal_login_formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal_login_formulario_campo-email {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.principal_login_formulario_campo-senha {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.principal_login_formulario_campo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+#email {
+    display: block;
+    background-color: var(--segunda-cor);
+    color: var(--primeira-cor);
+    padding: 16px;
+    border: 1px solid var(--quarta-cor);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#senha {
+    display: block;
+    background-color: var(--segunda-cor);
+    color: var(--primeira-cor);
+    padding: 16px;
+    border: 1px solid var(--quarta-cor);
+    border-radius: 4px;
+    font-size: 1rem;
+}

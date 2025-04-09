@@ -6,7 +6,7 @@
     border-top: 2px solid var(--segunda-cor);
 }
 
-.link {
+.rodape_link {
     color: var(--primeira-cor);
     text-decoration: none;
 }

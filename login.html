@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/login/login.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_container">
+            <a href="index.html">
+                <img class="cabecalho_container_logo" src="images/gulag news.png" alt="Logo do blog">
+            </a>
+            <div class="cabecalho_container_opcoes">
+                <a href="login.html">
+                    <img class="cabecalho_container_opcoes_user" src="images/user.png" alt="Ícone do usuário">
+                </a>
+                <img class="cabecalho_container_opcoes_search" src="images/search.png" alt="Ícone de pesquisa">
+                <img class="cabecalho_container_opcoes_list" src="images/list.png" alt="Ícone do menu">
+            </div>
+        </div>
+        <ul class="cabecalho_lista-menu">
+            <li><a class="cabecalho_lista-item" href="#">Início</a></li>
+            <li><a class="cabecalho_lista-item" href="#">Notícias</a></li>
+            <li><a class="cabecalho_lista-item" href="#">Reviews</a></li>
+            <li><a class="cabecalho_lista-item" href="#">Sobre</a></li>
+        </ul>
+        
+    </header>
+    <main class="principal">
+        <section class="principal_login">
+            <div class="principal_login_cabecalho">
+                <p class="principal_login_cabecalho_paragrafo">
+                    Bem-vindo(a) de volta!
+                </p>
+                <h1 class="principal_login_cabecalho_titulo">
+                    Faça login na sua conta
+                </h1>
+            </div>
+            <form class="principal_login_formulario" action="index.html" method="post" autocomplete="on">
+                <div class="principal_login_formulario_campo-email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required autocomplete="email" placeholder="exemplo@email.com">
+                </div>
+                <div class="principal_login_formulario_campo-senha">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required autocomplete="current-password" minlength="8" placeholder="12345678">
+                </div>
+                <div class="principal_login_formulario_campo">
+                    <div>
+                        <input type="checkbox" name="lembrar" id="lembrar">  
+                        <label for="lembrar">Lembrar de mim</label>  
+                    </div>
+                    <a class="principal_login_formulario_campo_link-esqueceu" href="#">Esqueceu sua senha?</a>
+                </div>
+
+                <button class="principal_login_formulario_botao-entrar" type="submit">Entrar</button>         
+            </form>
+            <p class="principal_login_cadastrar">
+                Não tem uma conta? <a class="principal_login_cadastrar_link" href="#">Cadastre-se</a>
+            </p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <a class="rodape_link" href="#">Sobre</a>
+        <a class="rodape_link" href="#">Termos de serviço</a>
+        <a class="rodape_link" href="#">Política de privacidade</a>
+    </footer>
+</body>
+</html>

@@ -7,17 +7,22 @@
     padding: 130px 24px 32px;
 }
 
-section {
+.principal_conteudo {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-h1 {
+.principal_conteudo_titulo {
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-p {
+.principal_conteudo_paragrafo {
     text-align: justify;
+}
+
+.principal_conteudo_imagem {
+    border: var(--primeira-cor) solid 2px;
+    border-radius: 4px;
 }

@@ -7,61 +7,49 @@
     padding: 130px 24px 32px;
 }
 
-.card_1 {
+.principal_conteudo {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 360px;
+    color: var(--terceira-cor);
+}
+
+.conteudo_1 {
     background: black url(../../images/verdansk.jpg) center center no-repeat scroll;
     background-size: cover;
-    color: var(--terceira-cor);
     border-radius: 4px;
 }
 
-.card_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 360px;
+.conteudo_2 {
     background: black url(../../images/xbox.jpg) center center no-repeat scroll;
     background-size: cover;
-    color: var(--terceira-cor);
     border-radius: 4px;
 }
 
-.card_3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 360px;
+.conteudo_3 {
     background: black url(../../images/xbox.jpg) center center no-repeat scroll;
     background-size: cover;
-    color: var(--terceira-cor);
     border-radius: 4px;
 }
 
-.card_4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 360px;
+.conteudo_4 {
     background: black url(../../images/xbox.jpg) center center no-repeat scroll;
     background-size: cover;
-    color: var(--terceira-cor);
     border-radius: 4px;
 }
 
-.noticia {
+.principal_conteudo_noticia {
     background-color: var(--quarta-cor);
     padding: 10px 20px 20px;
     border-radius: 0px 0px 4px 4px;
 }
 
-.data {
+.principal_conteudo_noticia_data {
     margin-bottom: 12px;
 }
 
-.manchete {
+.principal_conteudo_noticia_manchete {
     color: var(--segunda-cor);
     font-size: 1.5rem;
     text-decoration: none;
