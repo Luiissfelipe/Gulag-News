@@ -60,7 +60,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 56px;
 }
 
 #lembrar {
@@ -83,6 +83,7 @@ label {
 .principal_login_formulario_botao-entrar {
     background-color: var(--quarta-cor);
     color: var(--terceira-cor);
+    font-size: 1rem;
     font-weight: 600;
     padding: 14px 32px;
     border: none;
@@ -97,7 +98,7 @@ label {
 
 .principal_login_cadastrar {
     text-align: center;
-    margin-top: 32px;
+    margin-top: 64px;
 }
 
 .principal_login_cadastrar_link {
