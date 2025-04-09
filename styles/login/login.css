@@ -29,19 +29,6 @@
     margin-bottom: 32px;
 }
 
-.principal_login_formulario_campo-senha {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-bottom: 24px;
-}
-
-.principal_login_formulario_campo {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 56px;
-}
-
 #email {
     display: block;
     background-color: var(--segunda-cor);
@@ -50,6 +37,13 @@
     border: 1px solid var(--quarta-cor);
     border-radius: 4px;
     font-size: 1rem;
+}
+
+.principal_login_formulario_campo-senha {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
 }
 
 #senha {
@@ -61,3 +55,56 @@
     border-radius: 4px;
     font-size: 1rem;
 }
+
+.principal_login_formulario_campo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+#lembrar {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.principal_login_formulario_campo_link-esqueceu {
+    color: var(--quarta-cor);
+}
+
+.principal_login_formulario_campo_link-esqueceu:hover {
+    color: var(--primeira-cor);
+    transition: 0.5s;
+}   
+
+.principal_login_formulario_botao-entrar {
+    background-color: var(--quarta-cor);
+    color: var(--terceira-cor);
+    font-weight: 600;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.principal_login_formulario_botao-entrar:hover {
+    background-color: var(--primeira-cor);
+    transition: 0.5s;
+}
+
+.principal_login_cadastrar {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.principal_login_cadastrar_link {
+    color: var(--quarta-cor);
+}
+
+.principal_login_cadastrar_link:hover {
+    color: var(--primeira-cor);
+    transition: 0.5s;
+}   
