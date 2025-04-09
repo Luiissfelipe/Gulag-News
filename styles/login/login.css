@@ -81,7 +81,7 @@ label {
 }   
 
 .principal_login_formulario_botao-entrar {
-    background-color: var(--quarta-cor);
+    background-color: var(--primeira-cor);
     color: var(--terceira-cor);
     font-size: 1rem;
     font-weight: 600;
@@ -92,7 +92,7 @@ label {
 }
 
 .principal_login_formulario_botao-entrar:hover {
-    background-color: var(--primeira-cor);
+    background-color: var(--quarta-cor);
     transition: 0.5s;
 }
 
