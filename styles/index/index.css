@@ -22,19 +22,19 @@
 }
 
 .conteudo_2 {
-    background: black url(../../images/xbox.jpg) center center no-repeat scroll;
+    background: black url(../../images/novas-armas.webp) center center no-repeat scroll;
     background-size: cover;
     border-radius: 4px;
 }
 
 .conteudo_3 {
-    background: black url(../../images/xbox.jpg) center center no-repeat scroll;
+    background: black url(../../images/novo-acessorio.webp) center center no-repeat scroll;
     background-size: cover;
     border-radius: 4px;
 }
 
 .conteudo_4 {
-    background: black url(../../images/xbox.jpg) center center no-repeat scroll;
+    background: black url(../../images/novos-mapas.webp) center center no-repeat scroll;
     background-size: cover;
     border-radius: 4px;
 }

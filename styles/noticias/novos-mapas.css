@@ -1,0 +1,47 @@
+@import url("../style.css");
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 130px 24px 32px;
+}
+
+.principal_conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal_conteudo_titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.principal_conteudo_paragrafo {
+    text-align: justify;
+}
+
+.principal_conteudo_imagem {
+    border: var(--primeira-cor) solid 2px;
+    border-radius: 4px;
+}
+
+.principal_conteudo_lista {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.principal_conteudo_lista-item {
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+.principal_conteudo_lista-item::marker {
+    color: var(--primeira-cor);
+    font-weight: 800;
+}
+
+.principal_conteudo_lista-item_strong {
+    font-weight: 800;
+}
