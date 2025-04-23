@@ -25,3 +25,9 @@
 .principal_conteudo_imagem {
     border-radius: 4px;
 }
+
+@media screen and (min-width: 768px) {
+    .principal {
+        padding: 140px 10vw 32px;
+    }
+}
