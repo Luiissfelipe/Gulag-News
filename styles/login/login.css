@@ -109,3 +109,21 @@ label {
     color: var(--primeira-cor);
     transition: 0.5s;
 }   
+
+@media screen and (min-width: 768px) {
+    .principal {
+        padding: 140px 10vw 32px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .principal {
+        padding: 32px 15vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .principal {
+        padding: 32px 20vw;
+    }
+}

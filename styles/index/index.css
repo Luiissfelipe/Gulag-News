@@ -61,3 +61,30 @@
         padding: 140px 10vw 32px;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .principal {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 32px 15vw;
+    }
+
+    .principal_conteudo {
+        width: 47%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .principal {
+        padding: 32px 20vw;
+    }
+
+    .principal_conteudo {
+        width: 30%;
+    }
+
+    .conteudo_1 {
+        width: 100%;
+    }
+}

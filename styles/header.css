@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.cabecalho_container_redes-sociais {
+    display: none;
+}
+
 .cabecalho_container_logo {
     width: 130px;
 }
@@ -22,7 +26,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 35px;
+    gap: 32px;
 }
 
 .cabecalho_container_opcoes_user {
@@ -40,7 +44,8 @@
 .cabecalho_lista-menu {
     display: none;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 32px;
     margin-top: 15px;
 }
 
@@ -53,5 +58,25 @@
 @media screen and (min-width: 768px) {
     .cabecalho {
         padding: 15px 10vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cabecalho {
+        position: relative;
+        padding: 15px 15vw;
+    }
+
+    .cabecalho_container_redes-sociais {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cabecalho {
+        padding: 15px 20vw;
     }
 }
