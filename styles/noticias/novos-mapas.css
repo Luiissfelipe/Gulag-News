@@ -45,3 +45,9 @@
 .principal_conteudo_lista-item_strong {
     font-weight: 800;
 }
+
+@media screen and (min-width: 768px) {
+    .principal {
+        padding: 140px 10vw 32px;
+    }
+}
