@@ -17,6 +17,21 @@
     display: none;
 }
 
+.cabecalho_container_redes-sociais_twitter {
+    width: 30px;
+    height: 30px;
+}
+
+.cabecalho_container_redes-sociais_youtube {
+    width: 30px;
+    height: 30px;
+}
+
+.cabecalho_container_redes-sociais_twitch {
+    width: 30px;
+    height: 30px;
+}
+
 .cabecalho_container_logo {
     width: 130px;
 }
@@ -30,14 +45,20 @@
 }
 
 .cabecalho_container_opcoes_user {
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
 
 .cabecalho_container_opcoes_search {
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
 
 .cabecalho_container_opcoes_list {
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -72,6 +93,21 @@
         flex-direction: row;
         align-items: center;
         gap: 32px;
+    }
+
+    .cabecalho_container_opcoes_user {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .cabecalho_container_opcoes_search {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .cabecalho_container_opcoes_list {
+        width: 30px;
+        height: 30px;
     }
 }
 
