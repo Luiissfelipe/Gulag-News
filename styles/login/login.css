@@ -29,7 +29,7 @@
     margin-bottom: 32px;
 }
 
-#email {
+.principal_login_formulario-input {
     display: block;
     background-color: var(--segunda-cor);
     color: var(--primeira-cor);
@@ -37,6 +37,14 @@
     border: 1px solid var(--quarta-cor);
     border-radius: 4px;
     font-size: 1rem;
+}
+
+.erro {
+    border: solid 1px red;
+}
+
+.erro::placeholder {
+    color: red;
 }
 
 .principal_login_formulario_campo-senha {
@@ -44,16 +52,6 @@
     flex-direction: column;
     gap: 12px;
     margin-bottom: 24px;
-}
-
-#senha {
-    display: block;
-    background-color: var(--segunda-cor);
-    color: var(--primeira-cor);
-    padding: 16px;
-    border: 1px solid var(--quarta-cor);
-    border-radius: 4px;
-    font-size: 1rem;
 }
 
 .principal_login_formulario_campo {
