@@ -55,12 +55,11 @@
             <form class="principal_login_formulario" action="#" method="post" autocomplete="on">
                 <div class="principal_login_formulario_campo-email">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" autocomplete="email" placeholder="exemplo@email.com">
-                    
+                    <input type="email" name="email" id="email" required autocomplete="email" placeholder="exemplo@email.com">
                 </div>
                 <div class="principal_login_formulario_campo-senha">
                     <label for="senha">Senha:</label>
-                    <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="12345678">
+                    <input type="password" name="senha" id="senha" required autocomplete="current-password" minlength="8" placeholder="12345678">
                 </div>
                 <div class="principal_login_formulario_campo">
                     <div>
