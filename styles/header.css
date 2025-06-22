@@ -70,6 +70,26 @@
     margin-top: 15px;
 }
 
+.cabecalho_lista-menu.menu--ativo {
+    display: flex;
+}
+
+.cabecalho_lista-menu li {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.cabecalho_lista-menu li:hover {
+    background-color: var(--quarta-cor);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cabecalho_lista-menu li:hover .cabecalho_lista-item {
+    color: var(--segunda-cor);
+    transition: 0.3s;
+}
+
 .cabecalho_lista-item {
     color: var(--primeira-cor);
     text-decoration: none;

@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 #email {
@@ -39,11 +39,16 @@
     font-size: 1rem;
 }
 
+.principal_login_formulario_campo-email_erro {
+    color: red;
+    font-size: 0.875rem;
+}
+
 .principal_login_formulario_campo-senha {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 #senha {
@@ -54,6 +59,11 @@
     border: 1px solid var(--quarta-cor);
     border-radius: 4px;
     font-size: 1rem;
+}
+
+.principal_login_formulario_campo-senha_erro {
+    color: red;
+    font-size: 0.875rem;
 }
 
 .principal_login_formulario_campo {
