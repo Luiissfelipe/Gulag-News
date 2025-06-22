@@ -46,14 +46,11 @@
     margin-bottom: 20px;
 }
 
-#senha {
-    display: block;
-    background-color: var(--segunda-cor);
-    color: var(--primeira-cor);
-    padding: 16px;
-    border: 1px solid var(--quarta-cor);
-    border-radius: 4px;
-    font-size: 1rem;
+.principal_login_formulario_campo-email_erro,
+.principal_login_formulario_campo-senha_erro {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 .principal_login_formulario_campo {

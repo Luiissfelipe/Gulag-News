@@ -41,9 +41,9 @@
 }
 
 .noticia--hover {
-    transform: scale(1.03); /* Aumenta levemente o card da notícia */
-    transition: transform 0.3s ease-in-out;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra mais pronunciada */
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .principal_conteudo_noticia {
