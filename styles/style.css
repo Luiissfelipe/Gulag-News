@@ -10,6 +10,10 @@
     --quarta-cor: #100f0f8f;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-color: var(--terceira-cor);
     color: var(--primeira-cor);
